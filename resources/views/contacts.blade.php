@@ -13,17 +13,18 @@
     </head>
     <body>
         <header class="w-100 bg-primary mb-3 p-3"> 
+            <a href="/" class="text-light text-decoration-none ms-3 bg-secondary rounded p-2">HOME</a>
             <a href="/products" class="text-light text-decoration-none ms-3 bg-secondary rounded p-2">My Products</a>
-            <a href="/contacts" class="text-light text-decoration-none ms-3 bg-secondary rounded p-2">Contacts</a>
         </header>
         <main class="text-center"> 
             <div class="container">
                 <div class="row">
                     <div class="col-12">
+                        <h1>CONTACTS</h1>
                         <div class="card">
-                            <p>Hello World</p>
-                            <p> {{ $name }}  {{ $surname }} </p>
-                            <p> {{ $age }} </p>
+                            <h4> {{ $name }} {{ $surname }} </h4>
+                            <p> {{ $mail }} </p>
+                            <p> {{ $telephone_number }} </p>
                         </div>
                     </div>
                 </div>

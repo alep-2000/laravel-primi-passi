@@ -22,3 +22,24 @@ Route::get('/', function () {
 
     return view('home', $data);
 });
+
+Route::get('/products', function () {
+    $data = [
+        'name_product' => 'Backpack',
+        'type' => 'school_supplies',
+        'prize' => 30
+    ];
+
+    return view('products', $data);
+});
+
+Route::get('/contacts', function () {
+    $data = [
+        'name' => 'Giuseppe',
+        'surname' => 'Leonardi',
+        'mail' => 'giuseppe.leonardi67@gmail.com',
+        'telephone_number' => 3289657410
+    ];
+
+    return view('contacts', $data);
+});
