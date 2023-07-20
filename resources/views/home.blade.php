@@ -13,5 +13,7 @@
     </head>
     <body>
         <p>Hello World</p>
+        <p> {{ $name }}  {{ $surname }} </p>
+        <p> {{ $age }} </p>
     </body>
 </html>
